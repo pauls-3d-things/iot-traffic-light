@@ -28,7 +28,8 @@ See Arduino Settings at the bottom of this document.
 Open the serial monitor ( Tools -> Serial Monitor), and verify the output:
 
 ```
-Temp: 21.56°C		Humidity: 33.30% RH		Pressure: 99364.14 Pa```
+Temp: 21.56°C		Humidity: 33.30% RH		Pressure: 99364.14 Pa
+```
 
 
 ### Traffic Light
@@ -42,7 +43,6 @@ Temp: 21.56°C		Humidity: 33.30% RH		Pressure: 99364.14 Pa```
 ![trafficlight](traffic_light_1.png)
 ![trafficlight](traffic_light_2.png)
 ![trafficlight](traffic_light_3.png)
-![trafficlight](traffic_light_4.png)
 ![trafficlight](traffic_light_5.png)
 ![trafficlight](traffic_light_6.png)
 
