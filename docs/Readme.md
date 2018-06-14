@@ -5,18 +5,31 @@
 This document describes the assembly steps to build the traffic light and the sensor:
 ![overview](all.jpg)
 
-## Sensor
+## Sensor Assembly
+The sensor module consists of
+- Wemos D1 mini (ESP8266)
+- Bosch BME280
+- a PCB
+- a case
+- pins to connect everything
+
 ### Overview
 ![sensor](sensor_overview.png)
 
 ### Steps
-
+First, get familliar with the parts and organize them in front of you. The base module (or mainboard/controlelr) is the blue board (Wemos D1mini). 
 ![sensor](sensor_1.png)
+Then, solder the two 8x1 female pin headers to the D1mini, such that the metal shield / antenna points to the ground. Make sure they are orthognal (or straight) on the board.
 ![sensor](sensor_2.png)
+Insert the male pins into the two soldered rows.
 ![sensor](sensor_3.png)
+Attach, and solder the pcb to the pins. Make sure the board is oriented correctly. (See the small helper text on the PCB).
 ![sensor](sensor_4.png)
+Attach and solder the 4x1 pins to the PCB. You might need to remove the PCB and flip it over to reach to the pads under the board ;).
 ![sensor](sensor_5.png)
+Attach and solder the sensor as depicted in the image to the 4x1 pins. The tiny silver box on the purple PCB needs to point up.
 ![sensor](sensor_6.png)
+Result: The sensor in the case.
 ![sensor](sensor_7.png)
 ![sensor](sensor_8.png)
 
