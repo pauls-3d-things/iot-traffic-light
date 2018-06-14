@@ -5,6 +5,14 @@
 This document describes the assembly steps to build the traffic light and the sensor:
 ![overview](all.jpg)
 
+## 3D Prints
+You can find the .STL files on [Thingiverse](https://www.thingiverse.com/thing:2463193)
+
+## PCBs
+You can order the PCBs from Aisler.net:
+- [Sensor Board](https://aisler.net/uvwxy/iot-traffic-light/sensor-board)
+- [LED Board](https://aisler.net/uvwxy/iot-traffic-light/led-board)
+
 ## Sensor Assembly
 The sensor module consists of
 - Wemos D1 mini (ESP8266)
